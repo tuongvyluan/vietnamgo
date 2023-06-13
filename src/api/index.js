@@ -60,7 +60,7 @@ export const getPlacesByLatLng = (type, lat, lng, params, source) => {
 }
 
 // Get Place details RTCRtpReceiver, 'type', 'location_id' and 'source' as paramter to endpoint call
-export const getPlaceDetails = async (type, location_id, source) => {
+export const getPlaceDetails = (type, location_id, source) => {
   return defaultAttractions.data.find(p => p.location_id === location_id)
   
 }

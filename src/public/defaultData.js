@@ -3,9 +3,7 @@ export const defaultAttractions = {
 		{
 			location_id: '1818393',
 			name: 'Notre Dame Cathedral of Saigon',
-			num_reviews: '0',
-			timezone: 'Asia/Ho_Chi_Minh',
-			location_string: 'Nha Trang, Khanh Hoa Province',
+			num_reviews: '3',
 			photo: {
 				images: {
 					small: {
@@ -33,46 +31,52 @@ export const defaultAttractions = {
 						url: 'https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/1-10.jpg',
 						height: '450'
 					}
-				},
-				is_blessed: true,
-				uploaded_date: '2013-01-29T09:34:54-0500',
-				helpful_votes: '0',
-				published_date: '2013-01-29T09:34:54-0500',
-				user: {
-					user_id: null,
-					member_id: '0',
-					type: 'user'
 				}
 			},
-			awards: [],
-			location_subtype: 'none',
-			preferred_map_engine: 'default',
 			raw_ranking: '5',
-			ranking_geo: 'Ho Chi Minh City',
-			ranking_category: 'attraction',
 			ranking: 'Places must visit in Ho Chi Minh City',
-			distance: '0.04032756406073895',
-			distance_string: '40 m',
 			rating: '4.5',
-			is_closed: false,
-			is_long_closed: false,
+			reviews: [
+				{
+					title: 'Diving Certifikat ',
+					rating: '5',
+					published_date: '2016-01-21T22:23:54-05:00',
+					published_platform: null,
+					summary:
+						'Awesome time with this instructor Will at Rainbow Divers! Got a open water certificate and his was cool and pro. Good times all trough 👌🏼😄',
+					author: '492s_renl',
+					url: 'http://www.tripadvisor.com/ShowUserReviews-g293928-d1818393-r341828754-The_Rainbow_Academy-Nha_Trang_Khanh_Hoa_Province.html#review341828754',
+					review_id: '341828754',
+					machine_translated: false
+				},
+				{
+					title: 'Professional diving.',
+					rating: '5',
+					published_date: '2010-08-27T08:00:24-04:00',
+					published_platform: null,
+					summary:
+						'Rainbow Divers Vietnam\n\nI stayed in Nha Trang for six months completing an intership wih Rainbow Divers  and in that  time I  took my  I.D.C and I.E. \n\nI relished my time with Rainbow Divers...',
+					author: 'Diver2210',
+					url: 'http://www.tripadvisor.com/ShowUserReviews-g293928-d1818393-r77104081-The_Rainbow_Academy-Nha_Trang_Khanh_Hoa_Province.html#review77104081',
+					review_id: '77104081',
+					machine_translated: false
+				},
+				{
+					title: 'Very good experience, method, equipment and divemasters',
+					rating: '5',
+					published_date: '2010-08-03T08:01:57-04:00',
+					published_platform: null,
+					summary:
+						'We have recently made a trip along Vietnam and dove one day in Nha Trang with Rainbow Divers. They have a very professional center with a lot of dive masters (2-3 people per dive master) from very...',
+					author: 'SpainAna',
+					url: 'http://www.tripadvisor.com/ShowUserReviews-g293928-d1818393-r73599967-The_Rainbow_Academy-Nha_Trang_Khanh_Hoa_Province.html#review73599967',
+					review_id: '73599967',
+					machine_translated: false
+				}
+			],
 			description:
-				'Notre Dame Cathedral of Saigon was established in 2003 in response to requests from divers and non-divers alike who were looking for a professional and focused approach to diver education.Here we teach you to become a professional dive educator as a Divemaster or Instructor. Programs start every month and run for 3-6 months.The Academy is managed by PADI Master Instructor Matthew Shaw and supported by an international team of experienced Instructor-Trainers, including the only 2 Course Directors in Vietnam.',
-			category: {
-				key: 'attraction',
-				name: 'Attraction'
-			},
-			
-			address_obj: {
-				street1: '01 Công xã Paris, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh',
-				street2: '',
-				city: 'Ho Chi Minh City',
-				state: null,
-				country: 'Vietnam',
-				postalcode: '7000'
-			},
-			address: '01 Công xã Paris, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh',
-			is_candidate_for_contact_info_suppression: false,
+				"Established by French colonists who initially named it the Church of Saigon (French: l'Eglise de Saïgon), the cathedral was constructed between 1863 and 1880. The name Notre-Dame Cathedral has been used since 1959. It has two bell towers, reaching a height of 58 meters (190 feet).",
+			address: '01 Công xã Paris, Bến Nghé, District 1, Ho Chi Minh City.',
 			subtype: [
 				{
 					key: '130',
@@ -80,6 +84,53 @@ export const defaultAttractions = {
 				}
 			]
 		},
+		{
+			location_id: '1818394',
+			name: 'Nguyen Hue Walking Street',
+			num_reviews: '0',
+			reviews: [],
+			photo: {
+				images: {
+					small: {
+						width: '150',
+						url: 'https://vcdn1-english.vnecdn.net/2018/08/13/duonghoa415183619311200x0-1534-1643-3002-1534132550.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=JA_YLwQ14eHDfYyd4JZ2cQ',
+						height: '150'
+					},
+					thumbnail: {
+						width: '50',
+						url: 'https://vcdn1-english.vnecdn.net/2018/08/13/duonghoa415183619311200x0-1534-1643-3002-1534132550.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=JA_YLwQ14eHDfYyd4JZ2cQ',
+						height: '50'
+					},
+					original: {
+						width: '410',
+						url: 'https://vcdn1-english.vnecdn.net/2018/08/13/duonghoa415183619311200x0-1534-1643-3002-1534132550.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=JA_YLwQ14eHDfYyd4JZ2cQ',
+						height: '550'
+					},
+					large: {
+						width: '410',
+						url: 'https://vcdn1-english.vnecdn.net/2018/08/13/duonghoa415183619311200x0-1534-1643-3002-1534132550.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=JA_YLwQ14eHDfYyd4JZ2cQ',
+						height: '550'
+					},
+					medium: {
+						width: '335',
+						url: 'https://vcdn1-english.vnecdn.net/2018/08/13/duonghoa415183619311200x0-1534-1643-3002-1534132550.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=JA_YLwQ14eHDfYyd4JZ2cQ',
+						height: '450'
+					}
+				}
+			},
+			raw_ranking: '5',
+			ranking: 'Places must visit in Ho Chi Minh City',
+			rating: '4',
+			description:
+				'Located in Central District 1, Nguyen Hue Street is the cultural hub of Ho Chi Minh city. Home to unique culinary delights, lively bars and exciting entertainment venues, it’s the perfect destination for nightlife lovers.',
+			address: 'Central District 1, Ho Chi Minh City.',
+			subtype: [
+				{
+					key: '130',
+					name: ''
+				}
+			]
+		}
 	],
 	paging: {
 		results: '30',
